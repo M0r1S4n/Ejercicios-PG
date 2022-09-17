@@ -1,0 +1,41 @@
+body {
+    font-family: 'Amiri Quran', serif;
+    background-color: rgb(89, 89, 89);
+}
+.nav a {
+    text-decoration: none;
+}
+
+/*header*/
+#header {
+    background-color: chocolate;
+    font-size: 1.2rem;
+
+}
+.logo {
+    font-size: 4rem;
+}
+
+/*main*/
+.articulos h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.articulos h5 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+.articulos p {
+    font-size: 1.1rem;
+}
+/*footer*/
+#footer {
+    background-color: antiquewhite;
+}
+.pie h3 {
+    font-size: 2rem;
+}
+.pie {
+    font-size: 0.8rem;
+}
