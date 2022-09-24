@@ -11,26 +11,38 @@ body {
     background-color: #eac926;
     padding: 20px;
 }
-
+.seccion-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 /*-----------------IMAGEN-------------------*/
 .logo {
-    width: 180px;
+    width: 50%;
+    display: flex;
 }
 .logo img {
-    max-width: 100%;
+    max-width: auto;
+}
+
+/*--------------------BUSQUEDA-------------------------*/
+.barra-de-busqueda {
+    width: 50%;
 }
 
 /*------------------TEXTO---------------------*/
 #header .texto {
     font-weight: 400;
     text-align: center;
+    width: 100%;
 }
 
 /*----------------MENU-------------------*/
 .menu a {
     text-decoration: none;
     color: #ffffff;
-    background-color: #03264c;
+    background-color: #1259c3;;
     display: block;
     text-align: center;
     font-size: 18px;
@@ -57,6 +69,28 @@ body {
     font-size: 17px;
 }
 
+/*-----------------MAIN--------------*/
+.formulario-de-producto {
+    padding: 20px 15px;
+}
+.control {
+    margin: 10px;
+}
+.etiqueta {
+    display: block;
+}
+#areaT, #categoria, .precio, .nombre {
+    width: 100%;
+    padding: 5px 2px;
+}
+.control button {
+    background-color: #39b54a;
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+}
 
 
 /*----------------MEDIA-------------------*/
@@ -84,7 +118,7 @@ body {
         display: flex;
     }
     .navegacion li {
-        margin: 0 5px;
+        margin: 0 3%;
     }
 }
 @media (min-width: 1200px){

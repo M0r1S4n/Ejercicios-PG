@@ -33,8 +33,8 @@
         </section>
         <section class="seccion-2">
             <div class="menu">
-                    <a href="#"><i class="fas fa-bars"></i></a>
-            </div>            
+                <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
             <nav class="navegacion">
                 <ul class="sitio">
                     <li><a href="">Ofertas</a></li>
@@ -48,9 +48,42 @@
                     <li><a href="">Mis compras</a> <i class="fa-solid fa-basket-shopping"></i></li>
                 </ul>
             </nav>
-
         </section>
     </header>
+
+    <main>
+        <form action="/crear-producto" method="POST" class="formulario-de-producto">
+            <div class="control">
+                <label for="" class="etiqueta">Nombre del producto:</label>
+                <input type="text" name="nombre" class="nombre">
+            </div>
+            <div class="control">
+                <label for="" class="etiqueta">Precio:</label>
+                <input type="text" name="precio" class="precio">
+            </div>
+            <div class="control">
+                <label for="" class="etiqueta">Categoria:</label>
+                <select name="categoria" id="categoria">
+                    <option value="hogar">Hogar</option>
+                    <option value="electro">Electro</option>
+                    <option value="indumentaria">Indumentaria</option>
+                </select>
+            </div>
+            <div class="control">
+                <label for="" class="etiqueta-radio">Esta en oferta:</label>
+                <input type="radio" name="en-oferta">
+            </div>
+            <div class="control">
+                <label for="" class="etiqueta">Descripcion:</label>
+                <textarea name="descripcion" id="areaT" cols="30" rows="10"></textarea>
+            </div>
+            <div class="control">
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </div>
+        </form>
+
+    </main>
 </body>
 
 </html>
